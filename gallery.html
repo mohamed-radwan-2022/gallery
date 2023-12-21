@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-------  Start Header ---------->
+    <div class="header" id="header">
+      <div class="container">
+        <a href="#" class="logo">Mohamed Radwan</a>
+        <ul class="main-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#index.html">login</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-------  end Header  --------->
+    <!-- Start Landing -->
+    <div class="landing">
+      <div class="container">
+        <div class="text">
+          <h1>Welcome, To Photo Gallery</h1>
+          <p>I will show some pictures of landscapes that will make you feel calm</p>
+        </div>
+        <div class="images">
+          <img src="images/landing-image.png" alt="" />
+        </div>
+      </div>
+      <a href="#gallery" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+      </a>
+    </div>
+    <!-- End Landing -->
+    <!-------  start heading  --------->
+    <div class="heading" >
+      <div class="container" id="gallery">
+        <h3> <span>Photo</span> Gallery </h3>
+      </div>
+    </div>
+    <!-------  end heading  --------->
+    <!-------  start fillter  --------->
+    <div class="container">
+      <div class="fillter">
+        <nav>
+            <div class="items">
+              <span class="item active" data-name="all">all</span>
+              <span class="item" data-name="mountains">mountains</span>
+              <span class="item" data-name="Rivers">Rivers</span>
+              <span class="item" data-name="Lakes">Lakes</span>
+              <span class="item" data-name="sunrise">sunrise</span>
+              <span class="item" data-name="Moon">Moon</span>
+            </div>
+          </nav>
+        </div>
+    </div>
+    <!-------  end fillter ---------->
+    <!-------  start gallery ---------->
+    <div class="container ">
+      <div class="grid">
+        <div class="image wide" data-name="mountains"> <img src="images/img1.jpg" alt=""> </div>
+        <div class="image" data-name="Rivers"> <img src="images/img2.jpg" alt=""> </div>
+        <div class="image tall" data-name="Lakes"> <img src="images/img3.jpg" alt=""> </div>
+        <div class="image  " data-name="sunrise"> <img src="images/img4.jpg" alt=""> </div>
+        <div class="image big" data-name="Moon"> <img src="images/img5.jpg" alt=""> </div>
+        <div class="image tall" data-name="mountains"> <img src="images/img6.jpg" alt=""> </div>
+        <div class="image" data-name="Rivers"> <img src="images/img7.jpg" alt=""> </div>
+        <div class="image " data-name="Lakes"> <img src="images/img8.jpg" alt=""> </div >
+        <div class="image wide" data-name="sunrise"> <img src="images/img9.jpg" alt=""> </div>
+        <div class="image " data-name="Moon"> <img src="images/img10.jpg" alt=""> </div>
+        <div class="image big" data-name="mountains"> <img src="images/img11.jpg" alt=""> </div>
+        <div class="image " data-name="Rivers"> <img src="images/img12.jpg" alt=""> </div>
+        <div class="image " data-name="Lakes"> <img src="images/img13.jpg" alt=""> </div>
+        <div class="image tall" data-name="sunrise"> <img src="images/img14.jpg" alt=""> </div>
+        <div class="image wide" data-name="Moon"> <img src="images/img15.jpg" alt=""> </div>
+        <div class="image" data-name="mountains"> <img src="images/img16.jpg" alt=""> </div>
+        <div class="image" data-name="Rivers"> <img src="images/img17.jpg" alt=""> </div>
+        <div class="image" data-name="Lakes"> <img src="images/img18.jpg" alt=""> </div>
+        <div class="image wide" data-name="sunrise"><img src="images/img19.jpg" alt=""> </div>
+        <div class="image " data-name="Moon"> <img src="images/img20.jpg" alt=""> </div>
+      </div>
+    </div>
+    <!-------  end gallery ---------->
+    <!-- Start Contact -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="main_heading">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="content">
+          <form action="login.php" method="post" >
+            <input class="main-input" type="text" name="name" placeholder="Your Name" />
+            <input class="main-input" type="email" name="email" placeholder="Your Email" />
+            <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <h2>  Mohamed Radwan</h2>
+        <p>We Are Social</p>
+        <div class="social_icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
